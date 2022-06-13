@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Finix Full Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg main-header navbar-light bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/ia_100000001.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav header-menu ml-auto mb-2 mb-lg-0">
+            <li><a href="index.html">Home<span><i class="fas fa-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="home1.html">Home one</a></li>
+                <li><a href="index.html">Home two</a></li>
+                <li><a href="home2.html">Home three</a></li>
+              </ul>
+            </li>
+             <li><a href="#">Pages<span><i class="fas fa-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="faq">FAQ</a></li>
+                <li><a href="loan-calculator.html">Leond Calculator</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="apply-now.html">Apply Now</a></li>
+                <li><a href="sign-in.html">Sign in</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+              </ul>
+            </li>
+             <li><a href="#">Services<span><i class="fas fa-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="services-datalis">Services datalis</a></li>
+              </ul>
+            </li>
+             <li><a href="founding">Founding</a></li>
+             <li><a href="loan.html">Loans</a></li>
+             <li><a href="#">Nows<span><i class="fas fa-chevron-down"></i></span></a>
+              <ul>
+                <li><a href="news">News</a></li>
+                <li><a href="news-datalis">News datalis</a></li>
+              </ul>
+            </li>
+             <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="header-info d-flex align-items-center">
+            <div class="header-search">
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="header-call clearfix">
+              <div class="header-call-icon float-left mr-3 h-100">
+                <span><i class="fas fa-phone-volume"></i></span>
+              </div>
+              <div class="header-call-info">
+                <span class="d-block">Call Now</span>
+                <a class="d-block" href="tel:+1514312-5678">+1 (514) 312-5678</a>
+              </div>
+            </div>
+            <div class="header-button">
+              <a class="btn btn-primary" href="apply-now.html">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <section class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            
+            
+            <nav aria-label="breadcrumb" class="text-center header-breadcrumb">
+              <h2>Loan Calculator</h2>
+              <ol class="breadcrumb justify-content-center bg-transparent">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Loan Calculator</li>
+              </ol>
+            </nav>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="loan-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 "></div>
+          <div class="col-xl-6 col-lg-6 ">
+            <div class="loan-item">
+              <div class="calculater-rate">
+                <div class="finix-item text-center">
+                  <h6>Loan Calculator</h6>
+                  <h2>How much do you need?</h2>
+                </div>
+                <div class="calculater-form">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="type money">Loan Amount</label>
+                      <input type="text"
+                        class="form-control" name="" id="type money" aria-describedby="helpId" placeholder="">
+                    </div>
+                  </form>
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="Borrowing">Interest Rate (%)</label>
+                      <input type="text"
+                        class="form-control" name="" id="Borrowing" aria-describedby="helpId" placeholder="">
+                    </div>
+                  </form>
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="Term">Loan Term (Years)</label>
+                      <input type="text"
+                        class="form-control" name="" id="Term" aria-describedby="helpId" placeholder="">
+                    </div>
+                  </form>
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="Pay">Loan Start Date</label>
+                      <input type="text"
+                        class="form-control" name="" id="Pay" aria-describedby="helpId" placeholder="">
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                          <div class="loa-btn text-center">
+                            <button class="btn btn-primary">View schedule</button>
+                          </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                          <div class="loa-btn text-center">
+                            <button class="btn btn-primary">View schedule</button>
+                          </div>
+                        </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 "></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="date-table-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="date-table-item">
+              <table class="table table-striped">
+                <thead >
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Period</th>
+                    <th scope="col">Balance</th>
+                    <th scope="col">Pandle</th>
+                    <th scope="col">Interest</th>
+                    <th scope="col">Principle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">07/07/2021</th>
+                    <td>0</td>
+                    <td>$500.00</td>
+                    <td>$2.00</td>
+                    <td>$5.00</td>
+                    <td>$0.230</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">08/07/2021</th>
+                    <td>1</td>
+                    <td>$459.28</td>
+                    <td>$42.80</td>
+                    <td>$2.08</td>
+                    <td>$40.72</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">09/07/2021</th>
+                    <td>2</td>
+                    <td>$618.39</td>
+                    <td>$22.00</td>
+                    <td>$5.91</td>
+                    <td>$20.89</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10/07/2021</th>
+                    <td>3</td>
+                    <td>$438.39</td>
+                    <td>$02.00</td>
+                    <td>$7.91</td>
+                    <td>$00.89</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11/07/2021</th>
+                    <td>4</td>
+                    <td>$58.39</td>
+                    <td>$23.00</td>
+                    <td>$3.91</td>
+                    <td>$10.89</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12/07/2021</th>
+                    <td>5</td>
+                    <td>$294.67</td>
+                    <td>$42.90</td>
+                    <td>$2.91</td>
+                    <td>$50.89</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-section">
+      <div class="footer-top py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-wegth">
+                <img src="./img/ia_100000049.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="footer-social-icon">
+                  <ul>
+                    <li><span>Follow us:</span></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-wegth">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our Performance</a></li>
+                  <li><a href="#">Help (FQA)</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-wegth">
+                <h3>Other Resources</h3>
+                <ul>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Business Loans</a></li>
+                  <li><a href="#">Loan Services</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-wegth">
+                <h3>Contact Us</h3>
+                <div class="footer-contact">
+                  <div class="footer-contact-item d-flex">
+                    <span><i class="fas fa-location-arrow"></i></span>
+                    <a href="#">Dhaka, Kadomtala, Basaboo,1214</a>
+                  </div>
+                  <div class="footer-contact-item d-flex">
+                    <span><i class="fas fa-envelope"></i></span>
+                    <a href="mailto:info@website">mdibrahimislam191@gmail.com</a>
+                  </div>
+                  <div class="footer-contact-item d-flex">
+                    <span><i class="fas fa-phone"></i></span>
+                    <a href="tel:+1514312-5678">+1 (514) 312-5678</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12">
+              <div class="footer-botton-item text-center">
+                <p>Copyright © 2021 Finix. Designed By <a href="index.html">Ibrahim Islam</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
